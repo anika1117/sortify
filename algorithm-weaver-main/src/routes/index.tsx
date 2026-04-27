@@ -3,22 +3,6 @@ import { Visualizer } from "@/components/visualizer/Visualizer";
 import { Sparkles } from "lucide-react";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Sortify — Sorting Algorithm Visualizer" },
-      {
-        name: "description",
-        content:
-          "Interactive, step-by-step visualization of bubble, selection, and insertion sort with 3D mode, full playback controls, and real-time complexity insights.",
-      },
-      { property: "og:title", content: "Sortify — Sorting Algorithm Visualizer" },
-      {
-        property: "og:description",
-        content:
-          "Beautifully animated, step-controlled visualizations of classic sorting algorithms.",
-      },
-    ],
-  }),
   component: Index,
 });
 
