@@ -5,7 +5,6 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import { TanStackRouterVite } from "@tanstack/router-plugin/vite";
 
 export default defineConfig({
-  base: "/sortify/",
   plugins: [
     TanStackRouterVite({
       routesDirectory: "./src/routes",
